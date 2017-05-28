@@ -1,0 +1,56 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: This method helped significantly. Humans are not good at tasks of such kind,
+so the tool that provides a sort of visual focus is more than welcomed for
+this purpoce.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Version control provides different possibilities. Instead of having only one,
+current version of a document I could return to any of the former versions if
+needed. I.e. if I see that some version had better solutions/functionality, etc.
+Also, as we have already seen, finding bugs i way better and easier with the
+help of a version control. Also, one of the adventages is that version control
+tools, ease colaboration across teams...
+
+Q: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+A: The pro is that one has a freedom of chosing the proper time for commit and thus
+uploading the logical parts to the repository which makes version control much
+more maintainable and usable. But in the same time this can also be a disadvantage
+if not properly used, making 'too big' or 'too small' commits. The good thing
+regarding automaticaly saved versions is that we would have our changes regularly
+saved but (cons) without clear logical parts being isolated.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A: I suppose the difference in approach comes from the intended use. While Git
+is mainly used for code, Google Docs is used for ordinary documents where
+saving multiple files in one commit is not so important.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: By entering the 'git log' command one gets the complete history of changes
+with relevant IDs, names of the authors, dates and messages related to the
+specific commits. The log starts from the most recent commits to the older ones.
+One useful command that can be added at the end of both git log and git diff
+commands is --stat command which shows how many files are changed in the specific
+commit and how many added and deleted lines of code were made, etc.
+'git diff' command with the addition of specific commits (two of them) will show
+the difference between two specific commits, which can be very useful also.
+
+Q: How might using version control make you more confident to make changes that
+could break something?
+
+A: The one gets more confident cause the error that can be introduced can also
+be easily followed and corected.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I would like to make a repository for my future project to have version control
+on them. I would also like to use it graphicaly instead of using it from the console.
+An last but not the least I would like to be acquainted with the rest of interesting
+commands git provides.

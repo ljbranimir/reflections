@@ -1,0 +1,7 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: When one initializes a repository an empty repository is created with the
+initial version of the repository and its history. There's no files added yet,
+just the necessary hidden .git folder. This is the first, initial step that is
+necessary in order to create a repository that can later be version controled,
+downloaded from a remote machine, etc.
