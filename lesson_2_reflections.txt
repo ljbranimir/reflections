@@ -14,3 +14,10 @@ files are in some middle zone.Files have to be added firstly in order that the s
 ones are afterwards commited. Have to admit that I'm not sure for the value,
 after the files are added thay are under the version control, but the files are
 just prepared with these method to be commited.
+
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+
+A: The stanging area helps here because it enables us to prepare exactly what we
+want to commit, while in the same time changes that are not belonging to the
+relevant logical change stay in the working directory.
