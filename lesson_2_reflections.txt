@@ -21,3 +21,18 @@ change?
 A: The stanging area helps here because it enables us to prepare exactly what we
 want to commit, while in the same time changes that are not belonging to the
 relevant logical change stay in the working directory.
+
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+A: When i.e. we are experimenting with some new feature, or preparing a related
+but different version of the same program, like it was presented in lectures
+the version of software which is in Italian...
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: The following command is used for this purpose:
+git log --graph --oneline master branch_name
+It enables us to clearly see the structure of our master and branches tree, with
+the precise moments when some branch is created with all of its commits. It shows
+us also the reachability from a current branch on wich we are at the moment.
