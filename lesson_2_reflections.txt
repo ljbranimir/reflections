@@ -36,3 +36,9 @@ git log --graph --oneline master branch_name
 It enables us to clearly see the structure of our master and branches tree, with
 the precise moments when some branch is created with all of its commits. It shows
 us also the reachability from a current branch on wich we are at the moment.
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A: The result is a branch with all the changes from both branches. The way it is
+represented in the diagram clearly depicts how two branhes are merged together.
