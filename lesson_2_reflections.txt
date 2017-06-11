@@ -42,3 +42,10 @@ in the diagram the way we do?
 
 A: The result is a branch with all the changes from both branches. The way it is
 represented in the diagram clearly depicts how two branhes are merged together.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+A: Automatic merging is good do automate easy to be done part of the job where
+and when there are no conflicts. Manual merge gets to the scene when one has to
+resolve a conflict that automaticaly cannot be resolved.
