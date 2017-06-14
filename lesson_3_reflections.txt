@@ -3,3 +3,11 @@ your work local?
 
 A: In case I'm in collaboration with other people on the same project/repository.
 Also, if the project is important it's good to have a backup which is remote.
+
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+A: Because we want to have a full control over the current work/development, and
+one wouldn't want that project files change and potentially causes some conflicts
+in the middle of important work. So full control and manual pull is a better
+solution IMHO.
