@@ -11,3 +11,13 @@ A: Because we want to have a full control over the current work/development, and
 one wouldn't want that project files change and potentially causes some conflicts
 in the middle of important work. So full control and manual pull is a better
 solution IMHO.
+
+Q: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A: Forks are similar as cloning but on GitHub. It represents the action of
+copying a remote repository to another repository which can afterward be changed
+independently. Clones are done from GitHub to local machine, and from local to
+local. Branchin is done localy, it keeps the log history and it can be merged
+anytime needed to another branch or master. So, these three actions are similar
+in a way but performed at another levels and locations.
