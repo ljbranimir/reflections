@@ -28,3 +28,11 @@ stored locally?
 A: The benefit is that we will have all the recent changes and updates all the
 participans in the project did. Also, that way we'll have all the conflicts
 noticed and resolved in time.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A: It is impossible now for me to imagine any sort of collaboration without any
+of the version control systems. Nevertheless, I can imagine the collaboration
+without GitHub where we would just need some server instead, but version system
+is a must, if not Git than something else.
