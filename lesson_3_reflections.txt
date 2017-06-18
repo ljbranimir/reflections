@@ -21,3 +21,10 @@ independently. Clones are done from GitHub to local machine, and from local to
 local. Branchin is done localy, it keeps the log history and it can be merged
 anytime needed to another branch or master. So, these three actions are similar
 in a way but performed at another levels and locations.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A: The benefit is that we will have all the recent changes and updates all the
+participans in the project did. Also, that way we'll have all the conflicts
+noticed and resolved in time.
