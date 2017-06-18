@@ -36,3 +36,11 @@ A: It is impossible now for me to imagine any sort of collaboration without any
 of the version control systems. Nevertheless, I can imagine the collaboration
 without GitHub where we would just need some server instead, but version system
 is a must, if not Git than something else.
+
+Q: When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+A: In a collaboration with others one would make a separate branch localy in
+order to afterwards have its work reviewed after making a pull request. In the
+end all this if fine can be merged to the master. This is a bit less straight
+forward method, slower, but more reliable.
